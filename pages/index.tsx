@@ -9,24 +9,40 @@ export default function Home() {
       <main>
         <Section fullHeight>
           <Grid>
-            <Flex center className=" pt-20 md:p-12 " column>
+            <Flex center className="pt-20 md:p-12 " column>
               <div>
                 <h1 className="text-4xl md:text-7xl pb-2">
-                  <strong className="font-bold">Kervin</strong> Vasquez
+                  <strong className="font-extrabold">Kervin</strong> Vasquez
                 </h1>
                 <h2 className="text-2xl">Fullstack Web Developer</h2>
               </div>
             </Flex>
             <Flex center className="relative">
-              <MeSvg className="static md:absolute md:bottom-0" />
+              <MeSvg className="static md:absolute md:-bottom-4" />
             </Flex>
           </Grid>
+        </Section>
+        <Section className="p-12 bg-black text-white" fullHeight id="contacto">
+          <Flex center column className="h-full">
+            <h1 className="text-4xl md:text-7xl pb-5 font-extrabold">
+              Contacto
+            </h1>
+            <p className="text-lg max-w-3xl pb-5">
+              No dudes en escribirme si necesitas información acerca el
+              desarrollo de un <strong>sitio</strong> o{" "}
+              <strong>aplicaión</strong> web, o si simplemente tienes alguna
+              duda o sugerencia sobre alguno de los articulos de mi blog.
+            </p>
+            <a className="text-4xl" href="mailto:contact@kervin.tech">
+              contact@kervin.tech
+            </a>
+          </Flex>
         </Section>
       </main>
 
       <footer className="w-full p-2 text-center">
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/kervin5"
           target="_blank"
           rel="noopener noreferrer"
         >
