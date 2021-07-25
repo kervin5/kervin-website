@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 interface Props {}
 
-const index = (props: Props) => {
+const Index = (props: Props) => {
   const router = useRouter();
   const { slug } = router.query;
   useEffect(() => {
@@ -14,4 +14,4 @@ const index = (props: Props) => {
   return <div>Redirigiendo</div>;
 };
 
-export default index;
+export default Index;
