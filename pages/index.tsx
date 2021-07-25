@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <Section fullHeight>
           <Grid>
-            <Flex center className="p-12 " column>
+            <Flex center className=" pt-20 md:p-12 " column>
               <div>
                 <h1 className="text-4xl md:text-7xl pb-2">
                   <strong className="font-bold">Kervin</strong> Vasquez
