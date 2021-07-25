@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 interface Props {}
 
-const index = (props: Props) => {
+const Index = (props: Props) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.location.replace("https://kervin.blog");
@@ -11,4 +11,4 @@ const index = (props: Props) => {
   return <div>Redirigiendo</div>;
 };
 
-export default index;
+export default Index;
