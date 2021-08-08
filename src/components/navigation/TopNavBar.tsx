@@ -25,7 +25,7 @@ const NavBarLink = ({ href, children }: NavBarLinkProps) => {
 
 const TopNavBar = (props: Props) => {
   return (
-    <nav className="fixed top-0 left-0 right-0 py-4 px-8 flex justify-between items-center z-50">
+    <nav className="fixed top-0 left-0 right-0 py-4 px-8 flex justify-between items-center z-50 bg-white">
       <div className="w-28 hidden md:inline-block">
         <Image src={kervintech} placeholder="blur" layout="responsive" />
       </div>
