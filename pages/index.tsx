@@ -30,7 +30,7 @@ export default function Home() {
             <p className="text-lg max-w-3xl pb-5">
               No dudes en escribirme si necesitas información acerca el
               desarrollo de un <strong>sitio</strong> o{" "}
-              <strong>aplicaión</strong> web, o si simplemente tienes alguna
+              <strong>aplicación</strong> web, o si simplemente tienes alguna
               duda o sugerencia sobre alguno de los articulos de mi blog.
             </p>
             <a className="text-4xl" href="mailto:contact@kervin.tech">
